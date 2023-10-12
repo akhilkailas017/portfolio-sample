@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* header part*/
+.logo {
+  width: 120px;
+  margin-left: 50px;
+  margin-top: 26px;
+}
+
+.headerclass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks {
+  display: flex;
+  margin-right: 60px;
+  list-style-type: none;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-right: 20px;
+  font-size: larger;
+}
+
+.links:hover {
+  color: red;
+}
+
+/* header */
+#home {
+  margin-top: 100px;
+}
+
+.title {
+  margin-left: 8%;
+  margin-top: 13%;
+}
+
+.title-h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.secondname {
+  color: orange;
+}
+
+.download {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 30px 0px;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.images {
+  position: absolute;
+  width: 45%;
+  height: 80%;
+  bottom: 0px;
+  right: 30px;
+}
+
+.images img {
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%);
+  transition: bottom 1s, left 1s;
+}
+
+.images:hover #shape {
+  bottom: 70px;
+}
+
+.images:hover #girl {
+  left: 40%;
+}
+
+/* about section */
+#about {
+  margin-top: 200px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading h3 {
+  color: green;
+}
+
+.about_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30px;
+  gap: 2rem;
+}
+
+.information {
+  margin-top: 20px;
+
+}
+
+.info-box {
+  margin-bottom: 10px;
+}
+
+.info-box span {
+  margin-left: 5px;
+}
+
+.about-img img {
+  width: 80%;
+}
+
+.about-details {
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* skills */
+#skills {
+  margin-top: 200px;
+}
+
+.skill-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.progress-bar {
+  margin-left: 70px;
+  padding-left: 40px;
+}
+
+.bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.base-bar {
+  width: 100%;
+  height: 5px;
+  background-color: black;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.html-bar {
+  background-color: orange;
+  width: 95%;
+}
+
+.css-bar {
+  background-color: orange;
+  width: 90%;
+}
+
+.java-bar {
+  background-color: orange;
+  width: 80%;
+}
+
+.angular-bar {
+  background-color: orange;
+  width: 80%;
+}
+
+.skill-img img {
+  width: 70%;
+  padding-left: 20px;
+}
+
+/* contact */
+#contact {
+  margin-top: 250px;
+}
+
+.icon-set {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  align-items: center;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.icon i {
+  font-size: 30px;
+  color: black;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+.icon:hover {
+  background-image: linear-gradient(to bottom right, yellow, red);
+  animation: shake 1s;
+
+}
+
+@keyframes shake {
+  10% {
+    transform: rotate(15deg);
+  }
+
+  20% {
+    transform: rotate(-15deg);
+  }
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.up-arrow {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  float: right;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, yellow, red);
+  margin: 0px 10px 50px 0px;
+}
+
+.up-arrow i {
+  margin-top: 13px;
+  margin-left: 14px;
+  font-size: 30px;
+}
